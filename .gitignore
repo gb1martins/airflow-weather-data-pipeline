@@ -21,3 +21,6 @@ Thumbs.db
 
 #Venv
 venv/
+
+#airflow.cfg
+airflow.cfg
