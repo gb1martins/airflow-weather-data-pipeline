@@ -41,13 +41,12 @@ OpenWeather API
 
 ```
 .
-├── banco_de_dados/                # Criação das tabelas no BD(ddl)
+├── banco_de_dados/      # Criação das tabelas no BD(ddl)
 ├── dags/                # DAGs do Airflow (orquestração)
 ├── codigo_fonte/        # Lógica do pipeline
 │   ├── ingestao/
 │   └── transformacao/
 ├── sql/                 # Scripts SQL (DDL e DML)
-├── config/              # Configurações do Airflow
 ├── docker-compose.yaml  # Infraestrutura
 ├── requirements.txt     # Dependências
 ├── .gitignore
@@ -63,6 +62,7 @@ As pastas abaixo são criadas automaticamente durante a execução do pipeline:
 ```
 dados/   # Camadas Bronze, Silver e Gold
 logs/    # Logs do Airflow
+config/  # Configurações do Airflow
 ```
 
 > ⚠️ Essas pastas não são versionadas no Git.
