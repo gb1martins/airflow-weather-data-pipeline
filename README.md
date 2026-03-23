@@ -21,7 +21,7 @@ OpenWeather API
        ↓
    🥈 Silver (dados tratados)
        ↓
-   🥇 Gold (dados analíticos - PostgreSQL)
+   🥇 Gold (dados analíticos)
 ```
 
 ---
@@ -74,23 +74,23 @@ logs/    # Logs do Airflow
 ### 🥉 Bronze
 
 * Coleta dados da API OpenWeather
-* Armazena dados brutos em formato JSON
-* Fonte: capitais brasileiras
+* Armazena os dados brutos em formato JSON na camada Bronze
+* Representa a fonte original dos dados, sem transformação
 
 ---
 
 ### 🥈 Silver
 
-* Limpeza e padronização dos dados
-* Tratamento de inconsistências
-* Inserção em banco PostgreSQL
+* Realiza limpeza e tratamento dos dados da camada Bronze
+* Padroniza estruturas e tipos de dados
+* Carrega os dados em banco PostgreSQL
 
 ---
 
 ### 🥇 Gold
 
-* Dados prontos para análise
-* Base para dashboards e relatórios
+* Estrutura os dados para consumo analítico
+* Disponibiliza informações prontas para consultas, relatórios e dashboards
 
 ---
 
@@ -98,9 +98,9 @@ logs/    # Logs do Airflow
 
 O pipeline é executado automaticamente nos seguintes horários:
 
-* 19:00
-* 19:30
-* 20:00
+* 16:00
+* 16:30
+* 17:00
 
 ⚠️ Observação: o Airflow utiliza UTC por padrão.
 
