@@ -102,8 +102,6 @@ O pipeline é executado automaticamente nos seguintes horários:
 * 16:30
 * 17:00
 
-⚠️ Observação: o Airflow utiliza UTC por padrão.
-
 ---
 
 ## ▶️ Como Executar o Projeto
