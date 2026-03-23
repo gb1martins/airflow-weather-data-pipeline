@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": -47.0608,
+    "lat": -22.9056
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "céu limpo",
+      "icon": "01n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 24.89,
+    "feels_like": 25.24,
+    "temp_min": 24.89,
+    "temp_max": 24.89,
+    "pressure": 1011,
+    "humidity": 69,
+    "sea_level": 1011,
+    "grnd_level": 937
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 5.14,
+    "deg": 140
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1774046390,
+  "sys": {
+    "type": 1,
+    "id": 8393,
+    "country": "BR",
+    "sunrise": 1773997913,
+    "sunset": 1774041574
+  },
+  "timezone": -10800,
+  "id": 3467865,
+  "name": "Campinas",
+  "cod": 200
+}

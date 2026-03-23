@@ -1,0 +1,12 @@
+{"timestamp":"2026-03-20T22:42:54.836778Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-20T22:42:54.838068Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_clima_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-20T22:42:54.918793Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-20T22:42:54.919115Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-20T22:42:54.919535Z","level":"info","event":"Current task name:gold","logger":"task.stdout"}
+{"timestamp":"2026-03-20T22:42:54.919735Z","level":"info","event":"Dag name:pipeline_clima_19","logger":"task.stdout"}
+{"timestamp":"2026-03-20T22:42:54.964221Z","level":"info","event":"🔌 Conexão com o banco iniciada.","logger":"task.stdout"}
+{"timestamp":"2026-03-20T22:42:54.979446Z","level":"info","event":"🔌 Conexão com o banco encerrada.","logger":"task.stdout"}
+{"timestamp":"2026-03-20T22:42:54.980064Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-20T22:42:54.993756Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-20T22:42:54.994329Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-20T22:42:54.994661Z","level":"info","event":"Task operator:<Task(PythonOperator): gold>","logger":"task.stdout"}

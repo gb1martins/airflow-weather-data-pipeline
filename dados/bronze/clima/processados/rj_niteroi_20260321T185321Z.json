@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": -43.1036,
+    "lat": -22.8833
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "algumas nuvens",
+      "icon": "02d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 28.93,
+    "feels_like": 34.34,
+    "temp_min": 27.81,
+    "temp_max": 29.55,
+    "pressure": 1011,
+    "humidity": 79,
+    "sea_level": 1011,
+    "grnd_level": 1015
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 6.17,
+    "deg": 130
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1774118911,
+  "sys": {
+    "type": 2,
+    "id": 2036992,
+    "country": "BR",
+    "sunrise": 1774083384,
+    "sunset": 1774126966
+  },
+  "timezone": -10800,
+  "id": 3456283,
+  "name": "Niterói",
+  "cod": 200
+}

@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": -48.3603,
+    "lat": -10.2128
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "nublado",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 30.93,
+    "feels_like": 35.2,
+    "temp_min": 30.93,
+    "temp_max": 30.93,
+    "pressure": 1010,
+    "humidity": 62,
+    "sea_level": 1010,
+    "grnd_level": 973
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.51,
+    "deg": 210
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1774121206,
+  "sys": {
+    "type": 1,
+    "id": 8419,
+    "country": "BR",
+    "sunrise": 1774084645,
+    "sunset": 1774128228
+  },
+  "timezone": -10800,
+  "id": 3474574,
+  "name": "Palmas",
+  "cod": 200
+}

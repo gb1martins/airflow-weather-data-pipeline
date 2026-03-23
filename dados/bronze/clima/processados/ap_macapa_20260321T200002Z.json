@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": -51.0664,
+    "lat": 0.0389
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "nuvens dispersas",
+      "icon": "03d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 29.99,
+    "feels_like": 35.01,
+    "temp_min": 29.99,
+    "temp_max": 29.99,
+    "pressure": 1008,
+    "humidity": 70,
+    "sea_level": 1008,
+    "grnd_level": 1007
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 2.06,
+    "deg": 90
+  },
+  "clouds": {
+    "all": 40
+  },
+  "dt": 1774123213,
+  "sys": {
+    "type": 1,
+    "id": 8415,
+    "country": "BR",
+    "sunrise": 1774085286,
+    "sunset": 1774128885
+  },
+  "timezone": -10800,
+  "id": 3396016,
+  "name": "Macapá",
+  "cod": 200
+}

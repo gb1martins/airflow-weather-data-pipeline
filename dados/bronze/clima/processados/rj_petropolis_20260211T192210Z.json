@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": -43.1786,
+    "lat": -22.505
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "nublado",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 22.64,
+    "feels_like": 23.1,
+    "temp_min": 22.64,
+    "temp_max": 22.64,
+    "pressure": 1013,
+    "humidity": 82,
+    "sea_level": 1013,
+    "grnd_level": 933
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.75,
+    "deg": 360,
+    "gust": 2.78
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1770837006,
+  "sys": {
+    "country": "BR",
+    "sunrise": 1770799174,
+    "sunset": 1770845669
+  },
+  "timezone": -10800,
+  "id": 3454031,
+  "name": "Petrópolis",
+  "cod": 200
+}

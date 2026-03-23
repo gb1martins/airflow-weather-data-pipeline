@@ -1,0 +1,48 @@
+{
+  "coord": {
+    "lon": -47.0608,
+    "lat": -22.9056
+  },
+  "weather": [
+    {
+      "id": 500,
+      "main": "Rain",
+      "description": "chuva leve",
+      "icon": "10n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 26.89,
+    "feels_like": 28.59,
+    "temp_min": 26.89,
+    "temp_max": 26.89,
+    "pressure": 1011,
+    "humidity": 69,
+    "sea_level": 1011,
+    "grnd_level": 937
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 2.57,
+    "deg": 270
+  },
+  "rain": {
+    "1h": 0.53
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1771452519,
+  "sys": {
+    "type": 1,
+    "id": 8393,
+    "country": "BR",
+    "sunrise": 1771405122,
+    "sunset": 1771451157
+  },
+  "timezone": -10800,
+  "id": 3467865,
+  "name": "Campinas",
+  "cod": 200
+}

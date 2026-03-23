@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": -54.6464,
+    "lat": -20.4428
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "nublado",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 30.75,
+    "feels_like": 34.8,
+    "temp_min": 30.75,
+    "temp_max": 30.75,
+    "pressure": 1009,
+    "humidity": 62,
+    "sea_level": 1009,
+    "grnd_level": 946
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 4.63,
+    "deg": 310
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1774121418,
+  "sys": {
+    "type": 1,
+    "id": 8347,
+    "country": "BR",
+    "sunrise": 1774086156,
+    "sunset": 1774129734
+  },
+  "timezone": -14400,
+  "id": 3467747,
+  "name": "Campo Grande",
+  "cod": 200
+}

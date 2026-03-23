@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": -56.0967,
+    "lat": -15.5961
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "nublado",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 31.96,
+    "feels_like": 38.89,
+    "temp_min": 31.96,
+    "temp_max": 31.96,
+    "pressure": 1007,
+    "humidity": 66,
+    "sea_level": 1007,
+    "grnd_level": 985
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 5.14,
+    "deg": 260
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1774121417,
+  "sys": {
+    "type": 1,
+    "id": 8352,
+    "country": "BR",
+    "sunrise": 1774086504,
+    "sunset": 1774130082
+  },
+  "timezone": -14400,
+  "id": 3465038,
+  "name": "Cuiabá",
+  "cod": 200
+}

@@ -1,0 +1,22 @@
+{"timestamp":"2026-03-21T18:53:20.886206Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-21T18:53:20.887706Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_clima_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-21T18:53:20.976382Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:20.976744Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:20.977138Z","level":"info","event":"Current task name:bronze","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:20.977546Z","level":"info","event":"Dag name:pipeline_clima_20","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:20.979298Z","level":"info","event":" Buscando clima de Sao Paulo/SP...","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:21.340538Z","level":"info","event":" Salvo em: /opt/airflow/dados/bronze/clima/sp_sao_paulo_20260321T185321Z.json","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:21.340880Z","level":"info","event":" Buscando clima de Campinas/SP...","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:21.697316Z","level":"info","event":" Salvo em: /opt/airflow/dados/bronze/clima/sp_campinas_20260321T185321Z.json","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:21.697576Z","level":"info","event":" Buscando clima de Santos/SP...","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:22.121251Z","level":"info","event":" Salvo em: /opt/airflow/dados/bronze/clima/sp_santos_20260321T185322Z.json","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:22.121552Z","level":"info","event":" Buscando clima de Rio de Janeiro/RJ...","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:22.472819Z","level":"info","event":" Salvo em: /opt/airflow/dados/bronze/clima/rj_rio_de_janeiro_20260321T185322Z.json","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:22.473135Z","level":"info","event":" Buscando clima de Niteroi/RJ...","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:22.835201Z","level":"info","event":" Salvo em: /opt/airflow/dados/bronze/clima/rj_niteroi_20260321T185322Z.json","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:22.835555Z","level":"info","event":" Buscando clima de Petropolis/RJ...","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:23.209230Z","level":"info","event":" Salvo em: /opt/airflow/dados/bronze/clima/rj_petropolis_20260321T185323Z.json","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:23.209693Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-21T18:53:23.224539Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:23.224866Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-21T18:53:23.225267Z","level":"info","event":"Task operator:<Task(PythonOperator): bronze>","logger":"task.stdout"}
